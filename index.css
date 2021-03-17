@@ -1,0 +1,118 @@
+* {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+/*body {
+    
+}*/
+
+div {
+  border-radius: 5px;
+}
+body {
+  /*min-width: 500px;*/
+  padding:10px;
+  /*background-image: url("patt.png");
+  background-repeat: repeat-x;*/
+  height: 20%;
+  height: 25px;
+}
+
+.header {
+  padding: 20px 10px;
+  height: 25px;
+  width: 100%;
+  background-color: #ffcc66;
+  position: fixed;
+  z-index: 1;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 0;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.header a:hover {
+  background-color: #e0eeee;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: #ffcc66;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: inherit;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 24px;
+  color: inherit;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 10px;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
